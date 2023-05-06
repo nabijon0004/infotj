@@ -9,8 +9,6 @@ class EstablishmentAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'type_of_establishment', 'city')
     search_fields = ('name', 'address_street', 'city')
     list_per_page = 10
-    
-
 
 admin.site.register(EstablishmentPhoto)
 
